@@ -1,0 +1,183 @@
+	
+		@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+      
+body{
+    width:1160px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family: raleway;
+    }
+    h1{
+        font-size:2.5rem;
+        font-family:lato;
+        }
+    h2{
+        font-size:2rem;
+        font-family:lato;
+    }
+    h3{
+        background-color: #dbc2a4;
+        font-family:lato;       
+        }
+
+    header{
+        text-align: center;
+        background-color: #782221;
+        color:white;
+        padding-top:20px;
+        padding-bottom: 50px;
+        font-family: lato
+        }
+         figure{
+            width: auto;
+            height: 80px;
+            object-fit: cover;
+            background-position: center;
+            }
+            #photo{
+                width:auto;
+                height: 70px;
+                border-radius: 50%;
+                margin-top: 10px;
+                filter:drop-shadow(0 0 0.75rem black);                           
+                }
+            #photo:hover{
+                cursor:zoom-in;
+                }
+ 
+    section{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        height: 880px;              
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color:white;
+                }
+            .contact_adresse{
+                background-color: #2c1d27;
+                height: 80px;
+                width:386px;
+                text-align: center;
+                font-style: italic;               
+                }
+             .contact_mail{
+                background-color: #2c1d27;
+                height: 80px;
+                width:387px;
+                text-align: center;
+                font-style: italic; 
+                } 
+                .contact_tel{
+                background-color: #2c1d27;
+                height: 80px;
+                width:387px;
+                text-align: center;
+                font-style: italic; 
+                } 
+
+                a{
+                color: white;
+                text-decoration: none;
+                }
+
+                .propos{
+                    background-color: #782221;
+                    text-indent: 20px;
+                    width:346px;   
+                    height: 750px;
+                    color: white;
+                    }  
+                                
+                    .propos h3 {
+                    color:black;  
+                    margin-right:30px;  
+                    margin-left:0;   
+                    }
+                
+                    .propos article p {
+                        text-align: justify; 
+                        margin-right:30px;
+                        margin-left: 20px;
+                        }
+
+                .viepro{
+                    width:809px; 
+                    height:750px;
+                    line-height: normal;
+                    border-right:5px solid black ;
+                    }
+
+                    .viepro h3{
+                        margin-right:20px;
+                        margin-left: 20px;
+                        border-left:5px solid #782221;                                          
+                        }
+                    .viepro h4{
+                        text-decoration: underline;
+                        font-weight:900;
+                        margin-right:20px;
+                        margin-left: 20px;
+                        } 
+                    .viepro h5{
+                        margin-top: 0px;
+                        margin-bottom: 0px;  
+                        margin-right:20px;
+                        margin-left: 20px;
+                        }
+
+                    .viepro ul li:hover{
+                        border-right-style:solid;
+                        border-color:#782221;
+                        border-right-width:10px;
+                    }
+                    .viepro p{
+                        margin-top: 5px;
+                        margin-bottom: 5px; 
+                        }
+
+                .fb-share-button{
+                    justify-content:space-evenly;
+                    text-align:right;
+                    background-color: #782221; 
+                    width:580px;
+                    height:50px;
+                    }                 
+                #facebook{
+                    height: 30px;
+                    width: 30px;
+                    margin-top:15px;
+                    margin-right: 5px;
+                    margin-bottom:15px;
+                    }
+
+                .GITHUB{
+                    background-color: #782221; 
+                    width:580px;
+                    height:50px;
+                    }
+                #imageGITHUB{
+                    height: 30px;
+                    width: 30px;
+                    margin-top:15px;
+                    margin-bottom:15px;
+                    margin-left:5px;
+                    }                 
+
+                .footer{  
+                    flex-basis: initial;
+                    align-items: flex-end;         
+                    text-align: center;
+                    background-color:#782221; 
+                    width:1160px;
+                    height: 50px;      
+                    color:white;
+                    }
+            
+       
+              
+  
+       
